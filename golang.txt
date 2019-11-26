@@ -24,3 +24,21 @@ CREATING A NEW VARIABLE
 example: var name string = "yuvraj"
 
 You can also omit the type. Go cannot allow change of data type of variable
+
+HANDLING LIST DATA STRUCTURE IN GOLANG
+1) Array: Fixed length of things
+2) Slice: Array that can grow/shrink (dynamic array)
+
+Slice can hold only one data type.
+
+When we append to slice, a new slice is created. That slice must be reassigned to another variable
+
+LOOPING OVER A SLICE
+for i, card := range cards {
+		fmt.Println(i, card)
+}
+
+Here the first element would be the index.
+Second element is the value at that index in the slice
+"range cards" (where cards is a slice) declares that a looping is being performed over a slice
+
