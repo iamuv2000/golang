@@ -1,0 +1,21 @@
+Go CLI
+1) go build-> compiles
+2) go run -> compiles and executes
+3) go install -> Install a go package
+4) go fmt -> formats all the codes in each file of the current directory
+5) go get -> Download raw source code of someone else's package
+
+Types of packages
+1) Executable package
+2) Reusable package- Putting the reusable code
+
+package main => Executable package
+
+fmt -> format package. It is one of the standard lib.
+It implements the I/O operations
+
+BASIC FORMAT OF A GO FILE
+{package declaration}
+{import packages}
+{function to tell what go will do}
+
