@@ -19,3 +19,8 @@ BASIC FORMAT OF A GO FILE
 {import packages}
 {function to tell what go will do}
 
+CREATING A NEW VARIABLE
+{new variable} {name of variable} {type of variable} = {value}
+example: var name string = "yuvraj"
+
+You can also omit the type. Go cannot allow change of data type of variable
