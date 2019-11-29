@@ -49,3 +49,7 @@ Go is not an Object Oriented language!
 If you have to declare a variable due to syntax, but do not want to use that variable,just replace that variable with "_".
 will be used in looping through a slice, as first variable is a index, which may not be used.
 
+SLICE REFERENCING
+sliceName[startIndexIncluding:uptoNotIncluding]
+fruits = ['apple','banana','orange']
+then, fruits[0:2]=['apple','banana']
