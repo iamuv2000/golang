@@ -53,3 +53,5 @@ SLICE REFERENCING
 sliceName[startIndexIncluding:uptoNotIncluding]
 fruits = ['apple','banana','orange']
 then, fruits[0:2]=['apple','banana']
+fruits[:2]=['apple','banana'] //From begining to '2' but not '2'
+fruits[2:]=['orange'] //till the end
