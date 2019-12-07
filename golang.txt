@@ -58,3 +58,6 @@ fruits[2:]=['orange'] //till the end
 
 TYPE CONVERSION IN GO
 []byte("Hi there!") //We convert the string "Hi there!" to a 'byte slice' data type.
+
+SLICES VS ARRAYS
+We use more of slices as arrays cannot be re-sized

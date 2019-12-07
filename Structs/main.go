@@ -35,6 +35,6 @@ func (pointerToPerson *person) updateFirstName(newFirstName string) {
 	//ie, *person => is a type of data, pointing to the address of type person
 }
 
-func (p person) print() {
-	fmt.Println(p)
+func (pointerToPerson *person) print() {
+	fmt.Println(*pointerToPerson)
 }
